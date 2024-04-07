@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#transport-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#transport-info > div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+#transport-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
